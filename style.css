@@ -55,6 +55,7 @@
 .main-pic{
   max-width: 465px;  
     max-height:613px ;
+    width: 100%;
   
 }
 
@@ -70,6 +71,48 @@
     border-radius: 6px;
     height: 60px;
     width: 170px;
+    border: none;
     background-color: #F46060;
     color: white;
+}
+@media screen and (max-width:576px) {
+    .brand{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+       
+    }
+    .menu-ber{
+        margin-top: auto;
+        margin-right: auto;
+        gap: 10px;
+        
+    }
+    .main-pic{
+  max-width: 180px;  
+    max-height:300px ;
+    width: 100%;
+
+  
+}
+ .menu-ber{
+    font-size: 0.7rem;
+ }
+ .headding{
+     font-size: 2.0rem;
+ }
+ .brand-pra{
+    max-width: 180px;
+    font-size:0.9rem ;
+  
+}
+
+.btn-1{
+
+    border-radius: 6px;
+    height: 30px;
+    width: 80px;
+   border: none;
+   margin: 50px;
+   margin-top: 0px;
+}
 }
