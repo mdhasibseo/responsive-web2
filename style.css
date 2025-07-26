@@ -5,6 +5,7 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+ 
 }
 
 
@@ -77,13 +78,14 @@
 }
 @media screen and (max-width:576px) {
     .brand{
-        flex-direction: column-reverse;
-        margin: 0 auto;
-       
-    }
+        flex-direction: column-reverse;     
+      margin: auto;
+      width: 50%;
+       padding: 15px;
+     }
     .menu-ber{
         margin-top: auto;
-        margin-right: auto;
+        margin-right:50px;
         gap: 10px;
         
     }
@@ -95,14 +97,15 @@
   
 }
  .menu-ber{
-    font-size: 0.7rem;
+    font-size: 1rem;
  }
  .headding{
-     font-size: 2.0rem;
+     font-size: 2.01em;
  }
  .brand-pra{
     max-width: 180px;
-    font-size:0.9rem ;
+    font-size:0.8rem ;
+    text-align: center;
   
 }
 
