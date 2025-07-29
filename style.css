@@ -185,4 +185,24 @@
  .brand-2{
     flex-direction: column;
  }
+ .card-container{
+    flex-direction: column;
+    margin-top: -30px;
+ }
+ .card-img{
+    max-width: 170px;  
+}
+.card-pra{
+   
+    font-size: 0.5rem;
+}
+.card-heading-2{
+    padding-left: 20px;
+    font-size:0.75rem;
+}
+.card{
+    max-width: 185px;
+   margin-bottom: 20px;
+   margin: 20px auto;
+   
 }
