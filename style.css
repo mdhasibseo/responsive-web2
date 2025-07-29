@@ -206,3 +206,23 @@
    margin: 20px auto;
    
 }
+.last-sracture{
+    max-width:600px;
+    max-height:250px;
+    margin-top: 80px;
+    margin-left:0px ;
+    border-radius: 20px;   
+}
+.last-heading{
+    font-size: 1.5rem;
+   
+}
+.last-btn{
+
+    max-width: 134px;
+    max-height: 30px;  
+    margin-top: 20px;
+    font-size: 1rem;
+
+}
+}
